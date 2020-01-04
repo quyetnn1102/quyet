@@ -40,9 +40,9 @@
     "clusterApiVersion": "2015-03-01-preview",
     "clusterWorkerNodeCount": "3",
     "disksPerWorkerNode": "2",
-    "clusterVNetName": "NCR-DR-VNet",
-    "clusterStorageAccountName": "ncrdrstore",
-    "kafkaClusterName": "ncrdrhdi-kafka",
+    "clusterVNetName": "NCRDR-VNet",
+    "clusterStorageAccountName": "ncrdrstorage",
+    "kafkaClusterName": "ncrdr-kafka",
     "clusterVNetAddressSpace": "10.0.0.0/16",
     "clusterVNetSubnetName": "default",
     "clusterVNetSubnetAddressRange": "10.0.0.0/24"
