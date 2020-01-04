@@ -54,7 +54,7 @@
       "location": "[resourceGroup().location]",
       "apiVersion": "[variables('defaultApiVersion')]",
       "dependsOn": [ ],
-      "tags": { },
+      "tags": {"CCG.QuyetNN"        : "NCR BigData" },
       "properties": {
         "addressSpace": {
           "addressPrefixes": [
@@ -77,7 +77,7 @@
       "location": "[resourceGroup().location]",
       "apiVersion": "[variables('defaultApiVersion')]",
       "dependsOn": [ ],
-      "tags": { },
+      "tags": {"CCG.QuyetNN"        : "NCR BigData" },
       "properties": {
         "accountType": "Standard_LRS"
       }
@@ -91,7 +91,7 @@
         "[concat('Microsoft.Storage/storageAccounts/',variables('clusterStorageAccountName'))]",
         "[concat('Microsoft.Network/virtualNetworks/',variables('clusterVNetName'))]"
       ],
-      "tags": { },
+      "tags": {"CCG.QuyetNN"        : "NCR BigData" },
       "properties": {
         "clusterVersion": "3.6",
         "osType": "Linux",
